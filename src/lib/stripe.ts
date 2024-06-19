@@ -1,8 +1,8 @@
 import Stripe from "stripe";
 
 export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: "2024-04-10",
+  apiVersion: "2022-08-01",
   appInfo: {
-    name: "Igniteshop",
+    name: "Ignite Shop",
   },
 });

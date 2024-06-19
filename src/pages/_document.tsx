@@ -6,10 +6,6 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-        <title>Ignite Shop</title>
-
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -26,7 +22,6 @@ export default function Document() {
           dangerouslySetInnerHTML={{ __html: getCssText() }}
         />
       </Head>
-
       <body>
         <Main />
         <NextScript />

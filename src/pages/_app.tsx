@@ -1,11 +1,11 @@
-import { AppProps } from "next/app";
-import { globalStyles } from "../styles/global";
-import Image from "next/future/image";
+import { AppProps } from "next/app"
+import Image from "next/future/image"
 
-import logoImg from "../assets/logo.svg";
-import { Container, Header } from "../styles/pages/app";
+import logoImg from "../assets/logo.svg"
+import { Container, Header } from "../styles/pages/app"
+import { globalStyles } from "../styles/global"
 
-globalStyles();
+globalStyles()
 
 function App({ Component, pageProps }: AppProps) {
   return (
@@ -16,7 +16,7 @@ function App({ Component, pageProps }: AppProps) {
 
       <Component {...pageProps} />
     </Container>
-  );
+  )
 }
 
-export default App;
+export default App
